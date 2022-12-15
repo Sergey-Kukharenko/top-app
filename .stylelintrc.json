@@ -1,0 +1,22 @@
+{
+	"extends": [
+		"stylelint-config-standard",
+		"stylelint-config-clean-order"
+	],
+	"plugins": [
+		"stylelint-order"
+	],
+	"rules": {
+		"indentation": "tab",
+		"color-hex-case": "upper",
+		"selector-class-pattern": "^.*$",
+		"declaration-block-no-redundant-longhand-properties": [
+			true,
+			{
+				"ignoreShorthands": [
+					"/grid/"
+				]
+			}
+		]
+	}
+}
