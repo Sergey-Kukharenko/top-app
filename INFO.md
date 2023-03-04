@@ -4,7 +4,7 @@
 
 # lesson
 
-`3`
+`6`
 
 # time
 
